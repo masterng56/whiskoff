@@ -37,31 +37,6 @@ input {
     outline: none;
 }
 
-.btn:hover {
-    background-color: #FFBF50;
-    @extend %brown;
-}
-
-.btn:active {
-    @extend %white;
-}
-
-.btn {
-    border-radius: 3px;
-    background-color: #1F1915;
-    border: 0;
-    font-size: 20px;
-    line-height: 20px;
-    text-transform: uppercase;
-    @extend %yellow;
-    @extend %oswald;
-}
-
-.order {
-    width: 290px;
-    height: 56px;
-}
-
 .container {
     max-width: 1140px;
     width: 100%;
@@ -125,6 +100,31 @@ input {
     @extend %yellow;
 }
 
+.btn:hover {
+    background-color: #FFBF50;
+    @extend %brown;
+}
+
+.btn:active {
+    @extend %white;
+}
+
+.btn {
+    border-radius: 3px;
+    background-color: #1F1915;
+    border: 0;
+    font-size: 20px;
+    line-height: 20px;
+    text-transform: uppercase;
+    @extend %yellow;
+    @extend %oswald;
+}
+
+.order {
+    width: 290px;
+    height: 56px;
+}
+
 .wrapper_img {
     position: relative;
 }
@@ -143,6 +143,11 @@ input {
 .header_main_text h1,
 .header_main_text p {
     max-width: 635px;
+}
+
+.header_main_text p {
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .reasons_items {
