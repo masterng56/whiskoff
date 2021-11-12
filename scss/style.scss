@@ -37,6 +37,11 @@ input {
     outline: none;
 }
 
+ul {
+    margin: 0;
+    padding: 0;
+}
+
 .container {
     max-width: 1140px;
     width: 100%;
@@ -194,8 +199,33 @@ input {
     font-size: 130px;
 }
 
+//advantage
+.wrapper_advantage {
+    background: url(../img/3qubes1.svg), url(../img/3qubes2.svg);
+    background-color: #FFBF50;
+    background-position: 10% -35px, 90% 48px;
+    background-repeat: no-repeat;
+}
+
+.wrapper_advantage .container {
+    display: flex;
+    justify-content: center;
+}
+
+.advantage {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.advantage_item {
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+}
+
 .advantage .fas {
     font-size: 24px;
+    margin-right: 12px;
 }
 
 .catalog_items {
