@@ -51,13 +51,18 @@ ul {
     margin-left: auto;
 }
 
+// header
 .header {
     background-image: url(/img/cover.jpg);
 }
 
-// header
 .header_nav {
     display: flex;
+    padding-top: 16px;
+}
+
+.header_main {
+    margin-top: 50px;
 }
 
 .logo {
@@ -168,6 +173,7 @@ ul {
 
 .reasons_title {
     margin-top: 0;
+    margin-bottom: 0;
     text-align: center;
 }
 
@@ -217,6 +223,11 @@ ul {
     padding-bottom: 50px;
 }
 
+.advantage h2 {
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+
 .advantage_item {
     display: flex;
     align-items: center;
@@ -228,9 +239,62 @@ ul {
     margin-right: 12px;
 }
 
+//catalog
+.wrapper_catalog {
+    @extend %bgbrown;
+}
+
+.catalog {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.catalog h2 {
+    @extend %yellow;
+    margin: 0;
+    padding: 0;
+}
+
+.catalog_text {
+    color: #A1A1A1;
+    margin-top: 23px;
+    margin-bottom: 50px;
+}
+
 .catalog_items {
     display: flex;
     justify-content: space-between;
+}
+
+.catalog_item {
+    background-color: #fff;
+    max-width: 350px;
+    text-align: center;
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px;
+    padding: 12px;
+    box-sizing: border-box;
+    border-radius: 6px;
+}
+
+.catalog_item img {
+    height: auto;
+    width: 100%;
+}
+
+.catalog_order {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn_catalog {
+    width: 120px;
+    height: 48px;
 }
 
 .video {
