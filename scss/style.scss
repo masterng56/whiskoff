@@ -384,6 +384,29 @@ ul {
     background-position: 50% 100%;
 }
 
+//guarantee
+.wrapper_guarantee {
+    background: url(../img/3qubes1.svg), url(../img/3qubes2.svg);
+    background-color: #FFBF50;
+    background-position: 10% -61px, 90% 40px;
+    background-repeat: no-repeat;
+}
+
+.guarantee {
+    display: flex;
+    align-items: center;
+    width: 697px;
+    height: 130px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.fa-award {
+    font-size: 130px;
+    line-height: 130px;
+    margin-right: 50px;
+}
+
 .delivery_items {
     display: flex;
     justify-content: space-between;
