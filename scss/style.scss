@@ -420,6 +420,7 @@ ul {
 
 .slider_item_img {
     margin-right: 30px;
+    border-radius: 6px;
 }
 
 .slider_item {
@@ -444,9 +445,81 @@ ul {
     margin-right: 50px;
 }
 
+//delivery
+.wrapper_drlivery {
+    background-color: #1F1915;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.delivery h2 {
+    @extend %yellow;
+    margin-bottom: 50px;
+}
+
 .delivery_items {
     display: flex;
-    justify-content: space-between;
+}
+
+.delivery_item {
+    width: 250px;
+    margin-left: 100px;
+}
+
+.delivery_item:last-child {
+    margin-right: 0;
+}
+
+.delivery_item .fa-map-marked-alt {
+    @extend %yellow;
+    font-size: 40px;
+    line-height: 40px;
+}
+
+.delivery_title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.delivery_item span,
+.delivery_item i {
+    @extend %gray;
+}
+
+.delivery_text {
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.delivery_text:last-child {
+    margin-bottom: 0;
+}
+
+.delivery_text i {
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 24px;
+    width: 24px;
+    height: 24px;
+}
+
+.delivery_text .fa-walking {
+    padding-left: 5px;
+    margin-right: 11px;
+}
+
+.delivery_text i {
+    margin-right: 15px;
+}
+
+.delivery h5 {
+    @extend %yellow;
+    font-size: 22px;
+    line-height: 26px;
+    margin-top: 12px;
+    margin-bottom: 25px;
 }
 
 .contakts .container {
