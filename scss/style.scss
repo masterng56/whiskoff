@@ -1,4 +1,5 @@
 @import "normalize.scss";
+@import "slick-slider.scss";
 @import "fonts.scss";
 @import "colors.scss";
 body {
@@ -82,6 +83,11 @@ ul {
     display: flex;
     justify-content: left;
     align-items: center;
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 32px;
 }
 
 .off {
@@ -399,6 +405,37 @@ ul {
     height: 130px;
     margin: 0 auto;
     margin-top: 50px;
+}
+
+//reviews
+.wrapper_rewiews {
+    background: url(../img/WS1.jpg);
+    background-repeat: no-repeat;
+    @extend %yellow;
+}
+
+.rewiews h2 {
+    margin-bottom: 50px;
+}
+
+.slider_item_img {
+    margin-right: 30px;
+}
+
+.slider_item {
+    padding-left: 75px;
+    padding-right: 75px;
+    display: flex;
+    align-items: center;
+}
+
+.slider_item h5 {
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px;
+    margin-bottom: 25px;
 }
 
 .fa-award {
