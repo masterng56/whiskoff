@@ -66,15 +66,12 @@
     // header
     .header {
         background-image: url(/img/cover.jpg);
+        background-repeat: no-repeat;
     }
     
     .header_nav {
         display: flex;
         padding-top: 16px;
-    }
-    
-    .header_main {
-        margin-top: 50px;
     }
     
     .logo {
