@@ -49,6 +49,10 @@
         padding: 0;
     }
     
+    img {
+        max-width: 100%;
+    }
+    
     .container {
         max-width: 1140px;
         width: 100%;
@@ -67,11 +71,28 @@
     .header {
         background-image: url(/img/cover.jpg);
         background-repeat: no-repeat;
+        padding-bottom: 50px;
     }
     
     .header_nav {
         display: flex;
         padding-top: 16px;
+    }
+    
+    .menu_burger {
+        display: none;
+        width: 32px;
+        height: 32px;
+        background-image: url(/img/menu-burger.svg);
+        background-repeat: no-repeat;
+        background-size: 32px 32px;
+    }
+    
+    .menu_burger img {
+        width: 32px;
+        height: 32px;
+        font-size: 32px;
+        line-height: 32px;
     }
     
     .logo {
@@ -113,6 +134,10 @@
     
     .nav-menu ul li a:hover {
         @extend %yellow;
+    }
+    
+    .nav-menu ul li a:active {
+        @extend %white;
     }
     
     .header_main {
@@ -162,7 +187,6 @@
     
     .header_main_item {
         margin-top: 50px;
-        margin-bottom: 96px;
     }
     
     .header_main_text h1,
@@ -331,7 +355,8 @@
     }
     
     .wrapper_video {
-        background-image: url(/img/video_fon.jpg);
+        background-image: url(/img/baclgound_for_video.jpg);
+        background-repeat: no-repeat;
     }
     
     //application
@@ -630,4 +655,7 @@
         @extend %gray;
         text-align: center;
         margin-top: 25px;
+        margin-bottom: 0;
     }
+    
+    @import "media-queries.scss";
