@@ -1,5 +1,4 @@
     @import "normalize.scss";
-    @import "slick-slider.scss";
     @import "fonts.scss";
     @import "colors.scss";
     body {
@@ -430,8 +429,10 @@
     }
     
     //reviews
+    @import "slick-slider.scss";
     .wrapper_rewiews {
-        background: url(../img/WS1.jpg);
+        background-image: url(/img/WS2.jpg);
+        background-size: cover;
         background-repeat: no-repeat;
         @extend %yellow;
     }
