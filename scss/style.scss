@@ -58,8 +58,7 @@
         width: 100%;
         padding-right: 20px;
         padding-left: 20px;
-        margin-right: auto;
-        margin-left: auto;
+        margin: 0 auto;
     }
     
     .wrapper {
@@ -222,14 +221,14 @@
     
     .reasons_items p {
         text-align: center;
-        @extend %white;
+        @extend %gray;
     }
     
     .reasons_item {
         display: flex;
         flex-direction: column;
         align-items: center;
-        font-size: 16px;
+        font-size: 18px;
         width: 255px;
     }
     

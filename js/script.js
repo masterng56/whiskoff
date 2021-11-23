@@ -8,7 +8,7 @@ $(document).ready(function() {
     });
 
     $('.top_menu_burger').click(function(event) {
-        $('.top_header_nav, .top_logo, .top_menu_burger, .top_nav-menu').toggleClass('active');
+        $('.top_header_nav, .top_logo, .top_menu_burger, .top_nav-menu, header_nav').toggleClass('active');
     });
 
     $('.bottom_menu_burger').click(function(event) {
