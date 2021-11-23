@@ -103,9 +103,6 @@
     .top_nav-menu.active ul li:last-child {
         margin-bottom: 0;
     }
-    .active {
-        display: block;
-    }
     .header_main_text {
         max-width: 440px;
     }
@@ -120,11 +117,19 @@
         margin-bottom: 25px;
     }
     //reasons
+    .wrapper_reasons {
+        padding-bottom: 0;
+    }
     .reasons_items {
         flex-wrap: wrap;
+        padding-top: 25px;
     }
     .reasons_item {
         width: 50%;
+        margin-bottom: 25px;
+    }
+    .reasons_items p {
+        margin: 0;
     }
     //catalog
     .catalog_items {
@@ -175,5 +180,8 @@
     //footer
     .footer {
         position: relative;
+    }
+    .active {
+        display: block;
     }
 }
