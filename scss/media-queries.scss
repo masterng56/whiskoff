@@ -17,13 +17,11 @@
     .header_main_item {
         margin-top: 25px;
     }
-    .header_nav.active {
+    .top_header_nav.active {
         padding-top: 12px;
         background: url(/img/2qubs_for_menu.svg), url(/img/2qubs_for_menu.svg);
-        background-position: -3% -23px, 103% 48px;
+        background-position: -3% -24%, 103% 100%;
         background-repeat: no-repeat;
-    }
-    .top_header_nav.active {
         position: absolute;
         top: 0;
         left: 0;
@@ -33,61 +31,19 @@
         padding-top: 50px;
         z-index: 50;
     }
-    .bottom_header_nav.active {
-        padding-top: 50px;
-    }
-    .bottom_menu {
-        margin: 0 auto;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .menu_burger {
-        display: block;
-    }
     .top_menu_burger.active {
         position: absolute;
         top: 12px;
         right: 39px;
         background-image: url(/img/menu-close.svg);
     }
-    .bottom_menu_burger {
-        margin: 0 auto;
-        margin-top: 25px;
-        margin-bottom: 25px;
-    }
-    .bottom_menu_burger.active {
-        position: absolute;
-        top: 12px;
-        right: 39px;
-        margin: 0 auto;
-        margin-top: 0;
-        margin-bottom: 0;
-        background-image: url(/img/menu-close.svg);
-    }
-    .bottom_menu_burger_text {
-        display: inline-block;
-        margin-left: 18px;
-        color: #A1A1A1;
-        font-family: Oswald;
-        font-size: 24px;
-        line-height: 24px;
-        text-transform: uppercase;
-        vertical-align: middle;
-    }
-    .bottom_logo.active {
-        display: flex;
-        justify-content: center;
-    }
-    .display_none {
-        display: none;
-    }
     .top_logo.active {
         display: flex;
         justify-content: center;
         margin-bottom: 50px;
     }
-    .nav-menu {
+    .bottom_nav-menu,
+    .top_nav-menu {
         display: none;
     }
     .nav-menu ul {
@@ -192,16 +148,34 @@
         text-align: center;
     }
     //delivery
+    .wrapper_drlivery {
+        padding-top: 25px;
+        padding-bottom: 0;
+    }
     .delivery_items {
+        display: flex;
+        justify-content: center;
         flex-wrap: wrap;
     }
+    .delivery_item {
+        width: 50%;
+        margin-left: 0;
+        margin-bottom: 25px;
+    }
     //contakts
+    .wrapper_contakts {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+    .wrapper_contakts h2 {
+        margin-bottom: 25px;
+    }
     .contakts {
         display: flex;
         flex-wrap: wrap;
     }
     .contakts_order {
-        width: 100%;
+        align-items: center;
     }
     .contakts_order {
         display: flex;
@@ -211,12 +185,75 @@
     .order_form {
         margin-right: 30px;
     }
-    .map {}
     //footer
-    .footer {
+    .footer.active {
         position: relative;
+        padding: 0;
+    }
+    .bottom_header_nav.active {
+        padding-top: 50px;
+    }
+    .bottom_menu {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+    }
+    .menu_burger {
+        display: block;
+    }
+    .bottom_menu {
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+    .bottom_menu_burger.active {
+        position: absolute;
+        top: 12px;
+        right: 39px;
+        margin: 0 auto;
+        margin-top: 0;
+        margin-bottom: 0;
+        background-image: url(/img/menu-close.svg);
+    }
+    .bottom_menu_burger_text {
+        display: inline-block;
+        margin-left: 18px;
+        color: #A1A1A1;
+        font-family: Oswald;
+        font-size: 24px;
+        line-height: 24px;
+        text-transform: uppercase;
+        vertical-align: middle;
+    }
+    .bottom_logo.active {
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    .bottom_header_nav {
+        padding-top: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .bottom_header_nav.active {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        padding-top: 50px;
+        background: url(/img/2qubs_for_menu.svg), url(/img/2qubs_for_menu.svg);
+        background-position: -3% -17%, 103% 100%;
+        background-repeat: no-repeat;
+        background-color: #1F1915;
+    }
+    .bottom_nav-menu.active ul {
+        margin-bottom: 50px;
     }
     .active {
         display: block;
+    }
+    .display_none {
+        display: none;
     }
 }
