@@ -4,7 +4,14 @@ $(document).ready(function() {
         dots: true,
         autoplay: true,
         speed: 2000,
-        autoplaySpeed: 3000
+        autoplaySpeed: 3000,
+        responsive: [{
+            breakpoint: 321,
+            settings: {
+                arrows: false,
+                variableWidth: true,
+            }
+        }]
     });
 
     $('.top_menu_burger').click(function(event) {

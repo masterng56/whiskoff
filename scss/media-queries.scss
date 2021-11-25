@@ -179,7 +179,7 @@
         flex-direction: column;
         align-items: center;
     }
-    .wrwpper_text {
+    .wrapper_text {
         text-align: center;
     }
     //delivery
@@ -375,5 +375,20 @@
     }
     .guarantee p {
         text-align: center;
+    }
+    // .slider.slick-initialized.slick-slider.slick-dotted button.slick-arrow {
+    //     display: none;
+    // }
+    .slider_item {
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+    }
+    .wrapper_text {
+        width: 290px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 }
