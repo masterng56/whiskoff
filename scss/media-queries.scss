@@ -391,4 +391,18 @@
         justify-content: center;
         align-items: center;
     }
+    .delivery_items {
+        flex-direction: column;
+    }
+    .delivery_item {
+        width: auto;
+    }
+    .delivery_text {
+        width: 247px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .delivery h2 {
+        margin-bottom: 25px;
+    }
 }
