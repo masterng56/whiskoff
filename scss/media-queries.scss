@@ -202,10 +202,6 @@
     .menu_burger {
         display: block;
     }
-    .bottom_menu {
-        margin-top: 25px;
-        margin-bottom: 25px;
-    }
     .bottom_menu_burger.active {
         position: absolute;
         top: 12px;
@@ -250,10 +246,26 @@
     .bottom_nav-menu.active ul {
         margin-bottom: 50px;
     }
+    .bottom_nav-menu.active ul li:last-child {
+        margin-bottom: 0;
+    }
     .active {
         display: block;
     }
     .display_none {
         display: none;
+    }
+}
+
+//мобильная
+@media (max-width: 320px) {
+    .container {
+        max-width: 290px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .header_main {
+        flex-direction: column;
+        justify-content: space-between;
     }
 }

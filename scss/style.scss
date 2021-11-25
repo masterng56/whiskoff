@@ -643,8 +643,17 @@
         padding-bottom: 50px;
     }
     
+    .bottom_header_nav {
+        flex-direction: column;
+    }
+    
     .logo_footer {
         justify-content: center;
+        margin-bottom: 25px;
+    }
+    
+    .bottom_menu_burger_text {
+        display: none;
     }
     
     .menu_footer {
