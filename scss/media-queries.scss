@@ -1,5 +1,40 @@
 // Медиа запросы
 // Планшеты
+@media (min-width: 768.1px) and (max-width: 1024px) {
+    .container {
+        max-width: 964px;
+        padding-left: 39px;
+        padding-right: 39px;
+    }
+    .catalog_item {
+        width: 32%;
+    }
+    .application_item {
+        width: 33%;
+    }
+    .application_text {
+        width: auto;
+    }
+    .delivery_item {
+        width: 33%;
+        margin-left: 0;
+        padding: 0 12px;
+    }
+    .contakts {
+        justify-content: space-between;
+    }
+    .contakts_order {
+        width: 48%;
+        margin-right: 0;
+    }
+    .order_form {
+        width: auto;
+    }
+    .map {
+        width: 48%;
+    }
+}
+
 @media (max-width: 768px) {
     .container {
         max-width: 690px;
@@ -163,6 +198,9 @@
         margin-bottom: 25px;
     }
     //contakts
+    .contakts {
+        flex-direction: column;
+    }
     .wrapper_contakts {
         padding-top: 25px;
         padding-bottom: 25px;
@@ -259,6 +297,9 @@
 
 //мобильная
 @media (max-width: 320px) {
+    .header {
+        background-size: cover;
+    }
     .container {
         max-width: 290px;
         padding-left: 15px;
@@ -267,5 +308,17 @@
     .header_main {
         flex-direction: column;
         justify-content: space-between;
+    }
+    .top_menu_burger.active {
+        right: 12px;
+    }
+    .header_main {
+        flex-wrap: wrap;
+    }
+    .order {
+        margin-top: 25px;
+    }
+    .header_main_item {
+        width: auto;
     }
 }
