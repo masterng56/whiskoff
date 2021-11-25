@@ -356,4 +356,21 @@
     .youtube {
         height: 163px;
     }
+    .application_items {
+        flex-direction: column;
+        align-items: center;
+    }
+    .application_item {
+        width: auto;
+    }
+    .application_item p {
+        max-width: 290px;
+    }
+    .application_text {
+        width: auto;
+    }
+    .guarantee {
+        flex-direction: column;
+        height: auto;
+    }
 }
