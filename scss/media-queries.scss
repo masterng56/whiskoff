@@ -343,4 +343,11 @@
     .catalog_item:nth-child(1) {
         margin-right: 0;
     }
+    .wrapper_about,
+    .wrapper_advantage {
+        background: url(../img/mobil-about-bg-qubs.svg), url(../img/mobil-about-bg-qubs.svg);
+        background-color: #ffbf50;
+        background-position: -10% 287px, 109% 59px;
+        background-repeat: no-repeat;
+    }
 }
