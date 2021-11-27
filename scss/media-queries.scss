@@ -1,8 +1,25 @@
 // Медиа запросы
 // Планшеты
-@media (min-width: 768.1px) and (max-width: 1024px) {
+@media (max-width: 1024px) {
     .container {
-        max-width: 964px;
+        max-width: 946px;
+        padding-left: 39px;
+        padding-right: 39px;
+    }
+    .contakts_text {
+        margin-top: 25px;
+        padding-left: 12px;
+    }
+    .contakt_text_item {
+        display: flex;
+        align-items: center;
+        margin-bottom: 25px;
+    }
+}
+
+@media (min-width: 768.9px) and (max-width: 1023.9px) {
+    .container {
+        max-width: 690px;
         padding-left: 39px;
         padding-right: 39px;
     }
@@ -24,18 +41,32 @@
         justify-content: space-between;
     }
     .contakts_order {
-        width: 48%;
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 25px;
         margin-right: 0;
     }
     .order_form {
-        width: auto;
+        width: 50%;
+    }
+    .contakts_text {
+        width: 50%;
     }
     .map {
-        width: 48%;
+        width: 100%;
+    }
+    .menu_burger {
+        display: block;
+    }
+    .contakt_text_item {
+        display: flex;
+        align-items: center;
+        margin-bottom: 25px;
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1023.9px) {
     .container {
         max-width: 690px;
         padding-left: 39px;
@@ -214,8 +245,6 @@
     }
     .contakts_order {
         align-items: center;
-    }
-    .contakts_order {
         display: flex;
         justify-content: space-between;
         margin-bottom: 25px;
@@ -296,7 +325,7 @@
 }
 
 //мобильная
-@media (max-width: 320px) {
+@media (max-width: 767.9px) {
     .header {
         background-size: cover;
     }
@@ -308,9 +337,6 @@
     .header_main {
         flex-direction: column;
         justify-content: space-between;
-    }
-    .top_menu_burger.active {
-        right: 12px;
     }
     .header_main {
         flex-wrap: wrap;
@@ -339,6 +365,7 @@
     }
     .catalog_item {
         width: auto;
+        max-width: 100%;
     }
     .catalog_item:nth-child(1) {
         margin-right: 0;
@@ -376,9 +403,6 @@
     .guarantee p {
         text-align: center;
     }
-    // .slider.slick-initialized.slick-slider.slick-dotted button.slick-arrow {
-    //     display: none;
-    // }
     .slider_item {
         flex-direction: column;
         align-items: center;
@@ -404,5 +428,34 @@
     }
     .delivery h2 {
         margin-bottom: 25px;
+    }
+    .order_form {
+        margin-right: 0;
+        width: auto;
+    }
+    .contakts_order {
+        flex-direction: column;
+        margin-right: 0;
+    }
+    .contakts_text {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    .contakt_text_item {
+        display: flex;
+        align-items: center;
+        margin-top: 25px;
+    }
+    .catalog_item p {
+        margin-top: 0;
+    }
+    .map {
+        height: 411px;
+    }
+    .wrapper_advantage {
+        background-image: none;
+    }
+    .slider_item_img {
+        margin-right: 0;
     }
 }

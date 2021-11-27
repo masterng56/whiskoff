@@ -6,7 +6,7 @@ $(document).ready(function() {
         speed: 2000,
         autoplaySpeed: 3000,
         responsive: [{
-            breakpoint: 321,
+            breakpoint: 767.9,
             settings: {
                 arrows: false,
                 variableWidth: true,
