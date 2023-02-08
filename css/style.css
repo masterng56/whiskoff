@@ -505,12 +505,12 @@ img {
   padding-bottom: 50px;
 }
 
-.header {
+/* .header {
   background-image: url(/img/cover.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   padding-bottom: 50px;
-}
+} */
 
 .header_nav {
   display: -webkit-box;
@@ -797,10 +797,10 @@ img {
   line-height: 26px;
 }
 
-.wrapper_video {
+/* .wrapper_video {
   background-image: url(/img/baclgound_for_video.jpg);
   background-repeat: no-repeat;
-}
+} */
 
 .youtube {
   height: 517px;
@@ -1038,11 +1038,11 @@ img {
   background-color: #fff;
 }
 
-.wrapper_rewiews {
+/* .wrapper_rewiews {
   background-image: url(/img/WS2.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-}
+} */
 
 .rewiews h2 {
   margin-bottom: 50px;
